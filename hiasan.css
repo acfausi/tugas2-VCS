@@ -1,0 +1,67 @@
+p{
+    color: rgb(10, 17, 15);
+    text-align:initial;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    text-transform:lowercase;
+}
+body{
+background-image: url('a.jpg');
+background-color: rgb(242, 194, 154);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    margin-top: 30px;
+    text-decoration: 3px 3px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 90pt;
+}
+h1 marquee{
+    font-size: 90px;
+    font-style: oblique;
+}
+
+fieldset, legend{
+border: rgb(18, 0, 12) solid 5px;
+border-radius: 30px;
+}
+legend{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14pt;
+}
+table{
+    border: 10px;
+    margin: auto;
+}
+/*psudo elemen id*/
+div#menu{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+
+}
+a.item:link, a.item:visited, a.item.active{
+    text-decoration: none;
+    font-size: 16pt;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(229, 229, 184);
+    padding: 5px;
+    background-color: black;
+}
+
+a.item:hover{
+    color: rgb(0, 0, 0);
+    font-size: 14pt;
+    color: aliceblue;
+    border: 2px solid grey;
+    padding: 15px;
+    background-color: rgb(242, 194, 154);
+}
+li.munu{
+    color: blue;
+}
